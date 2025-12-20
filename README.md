@@ -5,6 +5,18 @@ A production‑ready, end‑to‑end **AI vehicle matching platform** that recom
 The system is built with **Python, Flask, LightGBM, and scikit‑learn**, and is designed to be reproducible, testable, and extensible.
 
 ---
+## Implementation Summary
+
+This project implements an end-to-end AI-driven vehicle matching system:
+
+- Generated a synthetic dataset of 10,000 trips simulating urban ride-hailing behavior
+- Trained a LightGBM model to predict pickup ETA and trip duration
+- Built a RandomForest-based demand forecasting model at grid-hour resolution
+- Designed a demand-driven dynamic pricing engine combining demand and supply signals
+- Implemented preference-aware vehicle ranking (fastest, cheapest, balanced)
+- Integrated all components into a Flask REST API with persistent vehicle storage
+- Evaluated models using MAE, RMSE, and MAPE with visual analysis in Jupyter notebooks
+
 
 ##  Key Capabilities
 
